@@ -1,5 +1,10 @@
 #include "monty.h"
-
+/**
+ * m_push - add node to the stack
+ * @stack: pointer to the top of stack
+ * @line_number: line_number
+ * Return: no return
+*/
 void m_push(stack_t **stack, unsigned int line_number)
 {
 	int v = 0;
