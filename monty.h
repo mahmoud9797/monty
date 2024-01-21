@@ -38,6 +38,7 @@ typedef struct instruction_s
 	char *opcode;
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
+void free_stack(stack_t *stack);
 void pint(stack_t **stack, unsigned int line_number);
 void m_push(stack_t **stack, unsigned int line_number);
 void exe(char *opcode, stack_t **stack, unsigned int line_number);

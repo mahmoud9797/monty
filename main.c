@@ -39,6 +39,7 @@ int main(int argc, char *argv[])
 	}
 	free(m_line);
 	fclose(m_file);
+	free_stack(stack);
 
 	exit(EXIT_SUCCESS);
 }
