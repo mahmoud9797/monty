@@ -11,7 +11,7 @@ void m_push(stack_t **stack, unsigned int line_number)
 	stack_t *new_node;
 	char *arg = strtok(NULL, " \t\n");
 
-	if (arg == NULL || (!isdigit(arg[0]) && arg[0] != '+' && arg[0] != '-'))
+	if (arg == NULL || (!isdigit(arg[0]) && arg[0] != '-'))
 	{
 		fprintf(stderr, "L%u: usage: push integer\n", line_number);
 		exit(EXIT_FAILURE);

@@ -40,5 +40,5 @@ int main(int argc, char *argv[])
 	free(m_line);
 	fclose(m_file);
 
-	return (EXIT_SUCCESS);
+	exit(EXIT_SUCCESS);
 }
