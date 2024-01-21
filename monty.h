@@ -1,11 +1,13 @@
-#ifndef _MONTY_H_
-#define _MONTY_H_
+#ifndef MONTY_H
+#define MONTY_H
+#define _POSIX_C_SOURCE 200809L
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
 #include <unistd.h>
 #include <ctype.h>
+#define MAX 1024
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)

@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	stack_t *stack = NULL;
 	char *m_line = NULL;
 	unsigned int n_line = 0;
-	size_t n_reads;
+	size_t n_reads = 0;
 	char *opcode;
 
 	if (argc != 2)
