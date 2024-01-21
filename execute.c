@@ -12,7 +12,8 @@ void exe(char *opcode, stack_t **stack, unsigned int line_number)
 	instruction_t ops[] = {
 		{"push", m_push},
 		{"pall", m_pall},
-		{NULL, NULL}
+		{"pint", pint},
+		{NULL, NULL},
 	};
 	i = 0;
 	while (ops[i].opcode != NULL)
